@@ -1,6 +1,6 @@
-import * as fs from "fs";
 import * as SVGO from "svgo";
 import { GroupedImageNodes, ImageNodeGroup } from "./image-node";
+import { readFile } from "./read-file";
 
 /**
  * A cache of the contents of of SVG files. This saves us from reading the same files
@@ -56,7 +56,7 @@ export class SvgCache extends Map<string, string> {
     this._hits += (nodes.length - 1);
 
     // Read the SVG file
-    let content = await fs.promises.readFile(path, "utf8");
+    let content = await readFile(path, "utf8");
 
     // Optimize the contents, if enabled
     if (optimizer) {
