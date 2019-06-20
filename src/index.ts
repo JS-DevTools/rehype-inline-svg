@@ -1,12 +1,11 @@
-import { projectExportName } from "./project-package-name";
+import { inlineSVG } from "./inline-svg";
 
-export { Options } from "./settings";
-export { projectExportName };
+export { Options } from "./options";
+export { inlineSVG };
 
-// Export `projectExportName` as the default export
+// Export `inlineSVG` as the default export
 // tslint:disable: no-default-export
-export default projectExportName;
-
+export default inlineSVG;
 
 // CommonJS default export hack
 if (typeof module === "object" && typeof module.exports === "object") {

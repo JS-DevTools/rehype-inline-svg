@@ -1,25 +1,30 @@
 {
-  "name": "project-package-name",
+  "name": "rehype-inline-svg",
   "version": "1.0.0-alpha.0",
-  "description": "This is the project description",
-  "keywords": [],
+  "description": "A rehype plugin that inlines and optimizes SVG images",
+  "keywords": [
+    "unified",
+    "rehype",
+    "plugin",
+    "rehype-plugin",
+    "inline",
+    "optimize",
+    "svg",
+    "img"
+  ],
   "author": {
     "name": "James Messinger",
     "url": "https://jamesmessinger.com"
   },
   "license": "MIT",
-  "homepage": "https://jsdevtools.org/project-package-name",
+  "homepage": "https://jsdevtools.org/rehype-inline-svg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JS-DevTools/project-package-name.git"
+    "url": "https://github.com/JS-DevTools/rehype-inline-svg.git"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.js",
-  "bin": {
-    "project-cli-name": "bin/project-cli-name.js"
-  },
   "files": [
-    "bin",
     "lib"
   ],
   "scripts": {
@@ -43,22 +48,29 @@
     "@types/command-line-args": "^5.0.0",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.7",
+    "@types/svgo": "^1.0.1",
+    "@types/unist": "^2.0.3",
+    "@types/vfile": "^3.0.2",
     "chai": "^4.2.0",
-    "chai-exec": "^1.1.1",
     "coveralls": "^3.0.4",
     "eslint": "^5.16.0",
     "eslint-config-modular": "^7.0.0",
     "mocha": "^6.1.4",
     "npm-check": "^5.9.0",
     "nyc": "^14.1.1",
+    "rehype-stringify": "^6.0.0",
     "shx": "^0.3.2",
+    "to-vfile": "^6.0.0",
     "tslint": "^5.17.0",
     "tslint-modular": "^1.4.1",
     "typescript": "^3.5.1",
     "typescript-tslint-plugin": "^0.5.0",
-    "version-bump-prompt": "^5.0.3"
+    "version-bump-prompt": "^5.0.3",
+    "vfile": "^4.0.1"
   },
   "dependencies": {
-    "command-line-args": "^5.1.1"
+    "rehype-parse": "^6.0.0",
+    "svgo": "^1.2.2",
+    "unified": "^7.1.0"
   }
 }
