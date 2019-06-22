@@ -151,7 +151,7 @@ To build the project locally on your computer:
 
 License
 --------------------------
-Rehype Inline SVG plugin is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+rehype-inline-svg is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
 
 
 
