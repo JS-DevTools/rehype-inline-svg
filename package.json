@@ -10,7 +10,9 @@
     "inline",
     "optimize",
     "svg",
-    "img"
+    "image",
+    "img",
+    "html"
   ],
   "author": {
     "name": "James Messinger",
