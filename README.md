@@ -81,13 +81,13 @@ Installation
 You can install `rehype-inline-svg` via [npm](https://docs.npmjs.com/about-npm/).
 
 ```bash
-npm install -g rehype-inline-svg
+npm install rehype-inline-svg
 ```
 
 You'll probably want to install [unified](https://unified.js.org/), [rehype-parse](https://github.com/rehypejs/rehype/tree/master/packages/rehype-parse), [rehype-stringify](https://github.com/rehypejs/rehype/tree/master/packages/rehype-stringify), and [to-vfile](https://github.com/vfile/to-vfile) as well.
 
 ```bash
-npm install -g unified rehype-parse rehype-stringify to-vfile
+npm install unified rehype-parse rehype-stringify to-vfile
 ```
 
 
