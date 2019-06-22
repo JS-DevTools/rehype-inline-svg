@@ -16,7 +16,6 @@ export function inlineSVG(this: Processor, config?: Partial<Options>): Transform
   let svgCache = new SvgCache();
   let hits = 0, misses = 0;
 
-  // @ts-ignore
   return async function transformer(tree: Node, file: VFile): Promise<Node> {
     if (!file.path) {
       throw new Error("Cannot inline SVG images because the path of the HTML file is unknown");
