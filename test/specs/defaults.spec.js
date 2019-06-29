@@ -3,7 +3,7 @@
 const processFile = require("../utils/process-file");
 const compareContents = require("../utils/compare-contents");
 
-describe("defaults", () => {
+describe("default behavior", () => {
 
   it("should do nothing if there are no images", async () => {
     let { contents } = await processFile("no-images.html");
