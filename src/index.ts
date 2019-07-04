@@ -1,6 +1,6 @@
 import { inlineSVG } from "./inline-svg";
 
-export { Options } from "./options";
+export { CacheEfficiency, Options } from "./options";
 export { inlineSVG };
 
 // Export `inlineSVG` as the default export
