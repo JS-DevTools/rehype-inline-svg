@@ -29,7 +29,7 @@ Features
 
 Example
 --------------------------
-This example uses [to-vfile](https://github.com/vfile/to-vfile) to read an HTML file and process it using [unified](https://unified.js.org/), [rehype-parse](https://github.com/rehypejs/rehype/tree/master/packages/rehype-parse), and [rehype-stringify](https://github.com/rehypejs/rehype/tree/master/packages/rehype-stringify).
+This example uses [to-vfile](https://github.com/vfile/to-vfile) to read an HTML file and process it using [unified](https://unifiedjs.com/), [rehype-parse](https://github.com/rehypejs/rehype/tree/master/packages/rehype-parse), and [rehype-stringify](https://github.com/rehypejs/rehype/tree/master/packages/rehype-stringify).
 
 **index.html**
 
@@ -84,7 +84,7 @@ You can install `rehype-inline-svg` via [npm](https://docs.npmjs.com/about-npm/)
 npm install rehype-inline-svg
 ```
 
-You'll probably want to install [unified](https://unified.js.org/), [rehype-parse](https://github.com/rehypejs/rehype/tree/master/packages/rehype-parse), [rehype-stringify](https://github.com/rehypejs/rehype/tree/master/packages/rehype-stringify), and [to-vfile](https://github.com/vfile/to-vfile) as well.
+You'll probably want to install [unified](https://unifiedjs.com/), [rehype-parse](https://github.com/rehypejs/rehype/tree/master/packages/rehype-parse), [rehype-stringify](https://github.com/rehypejs/rehype/tree/master/packages/rehype-stringify), and [to-vfile](https://github.com/vfile/to-vfile) as well.
 
 ```bash
 npm install unified rehype-parse rehype-stringify to-vfile
@@ -94,7 +94,7 @@ npm install unified rehype-parse rehype-stringify to-vfile
 
 Usage
 --------------------------
-Using the Inline SVG plugin requires an understanding of how to use Unified and Rehype. [Here is an excelleng guide](https://unified.js.org/using-unified.html) to learn the basics.
+Using the Inline SVG plugin requires an understanding of how to use Unified and Rehype. [Here is an excelleng guide](https://unifiedjs.com/using-unified.html) to learn the basics.
 
 The Inline SVG plugin works just like any other Rehype plugin. Pass it to [the `.use()` method](https://github.com/unifiedjs/unified#processoruseplugin-options), optionally with an [options object](#options).
 
