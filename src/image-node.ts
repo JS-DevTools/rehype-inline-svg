@@ -36,15 +36,17 @@ export type ImageNodeGroup = [string, ImageNode[]];
  * Determines whether the given HAST node is an `<img>` element.
  */
 export function isImageNode(node: Node): node is ImageNode {
-  return node.type === "element" &&
-    node.tagName === "img" &&
-    node.properties &&
-    typeof (node as ImageNode).properties.src === "string";
+  let img = node as ImageNode;
+  return img.type === "element" &&
+    img.tagName === "img" &&
+    img.properties &&
+    typeof img.properties.src === "string";
 }
 
 /**
  * Determines whether the given HAST node is an `<svg>` element.
  */
 export function isSvgNode(node: Node): node is SvgNode {
-  return node.type === "element" && node.tagName === "svg";
+  let svg = node as SvgNode;
+  return svg.type === "element" && svg.tagName === "svg";
 }
