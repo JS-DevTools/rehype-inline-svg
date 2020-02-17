@@ -1,0 +1,39 @@
+{
+  "name": "rehype-inline-svg",
+  "version": "X.X.X",
+  "description": "A rehype plugin that inlines and optimizes SVG images",
+  "keywords": [
+    "unified",
+    "rehype",
+    "plugin",
+    "rehype-plugin",
+    "inline",
+    "optimize",
+    "svg",
+    "image",
+    "img",
+    "html"
+  ],
+  "author": {
+    "name": "James Messinger",
+    "url": "https://jamesmessinger.com"
+  },
+  "license": "MIT",
+  "homepage": "https://jstools.dev/rehype-inline-svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JS-DevTools/rehype-inline-svg.git"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@jsdevtools/rehype-inline-svg": "X.X.X"
+  }
+}
