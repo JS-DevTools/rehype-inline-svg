@@ -7,8 +7,8 @@ A [rehype](https://github.com/rehypejs/rehype) plugin that inlines and optimizes
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/rehype-inline-svg/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/rehype-inline-svg)
 [![Dependencies](https://david-dm.org/JS-DevTools/rehype-inline-svg.svg)](https://david-dm.org/JS-DevTools/rehype-inline-svg)
 
-[![npm](https://img.shields.io/npm/v/rehype-inline-svg.svg)](https://www.npmjs.com/package/rehype-inline-svg)
-[![License](https://img.shields.io/npm/l/rehype-inline-svg.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@jsdevtools/rehype-inline-svg.svg)](https://www.npmjs.com/package/@jsdevtools/rehype-inline-svg)
+[![License](https://img.shields.io/npm/l/@jsdevtools/rehype-inline-svg.svg)](LICENSE)
 
 
 
@@ -46,7 +46,7 @@ This example uses [to-vfile](https://github.com/vfile/to-vfile) to read an HTML 
 ```javascript
 const unified = require("unified");
 const parse = require("rehype-parse");
-const inlineSVG = require("rehype-inline-svg");
+const inlineSVG = require("@jsdevtools/rehype-inline-svg");
 const stringify = require("rehype-stringify");
 const vfile = require("to-vfile");
 
@@ -78,10 +78,10 @@ async function example() {
 
 Installation
 --------------------------
-You can install `rehype-inline-svg` via [npm](https://docs.npmjs.com/about-npm/).
+You can install Rehype Inline SVG via [npm](https://docs.npmjs.com/about-npm/).
 
 ```bash
-npm install rehype-inline-svg
+npm install @jsdevtools/rehype-inline-svg
 ```
 
 You'll probably want to install [unified](https://unifiedjs.com/), [rehype-parse](https://github.com/rehypejs/rehype/tree/master/packages/rehype-parse), [rehype-stringify](https://github.com/rehypejs/rehype/tree/master/packages/rehype-stringify), and [to-vfile](https://github.com/vfile/to-vfile) as well.
@@ -100,7 +100,7 @@ The Inline SVG plugin works just like any other Rehype plugin. Pass it to [the `
 
 ```javascript
 const unified = require("unified");
-const inlineSVG = require("rehype-inline-svg");
+const inlineSVG = require("@jsdevtools/rehype-inline-svg");
 
 // Use the Inline SVG plugin with its default options
 unified().use(inlineSVG);
@@ -151,7 +151,7 @@ To build the project locally on your computer:
 
 License
 --------------------------
-rehype-inline-svg is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
+Rehype Inline SVG is 100% free and open-source, under the [MIT license](LICENSE). Use it however you want.
 
 
 
