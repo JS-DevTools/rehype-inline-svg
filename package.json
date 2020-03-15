@@ -1,6 +1,6 @@
 {
   "name": "@jsdevtools/rehype-inline-svg",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A rehype plugin that inlines and optimizes SVG images",
   "keywords": [
     "unified",
