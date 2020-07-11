@@ -1,8 +1,8 @@
 # Inline SVG plugin for rehype
 A [rehype](https://github.com/rehypejs/rehype) plugin that inlines and optimizes SVG images
 
-[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/rehype-inline-svg/blob/master/.github/workflows/CI-CD.yaml)
-[![Build Status](https://github.com/JS-DevTools/rehype-inline-svg/workflows/CI-CD/badge.svg)](https://github.com/JS-DevTools/rehype-inline-svg/blob/master/.github/workflows/CI-CD.yaml)
+[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/rehype-inline-svg/actions)
+[![Build Status](https://github.com/JS-DevTools/rehype-inline-svg/workflows/CI-CD/badge.svg)](https://github.com/JS-DevTools/rehype-inline-svg/actions)
 
 [![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/rehype-inline-svg/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/rehype-inline-svg)
 [![Dependencies](https://david-dm.org/JS-DevTools/rehype-inline-svg.svg)](https://david-dm.org/JS-DevTools/rehype-inline-svg)
@@ -131,7 +131,7 @@ Rehype Inline SVG supports the following options:
 
 Contributing
 --------------------------
-Contributions, enhancements, and bug-fixes are welcome!  [File an issue](https://github.com/JS-DevTools/rehype-inline-svg/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/rehype-inline-svg/pulls).
+Contributions, enhancements, and bug-fixes are welcome!  [Open an issue](https://github.com/JS-DevTools/rehype-inline-svg/issues) on GitHub and [submit a pull request](https://github.com/JS-DevTools/rehype-inline-svg/pulls).
 
 #### Building
 To build the project locally on your computer:
