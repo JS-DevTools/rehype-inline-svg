@@ -1,6 +1,6 @@
 import * as parse from "rehype-parse";
 import * as unified from "unified";
-import { Processor } from "unified"; // tslint:disable-line: no-duplicate-imports
+import { Processor } from "unified";
 import { Parent } from "unist";
 import * as vFile from "vfile";
 import { SvgCache } from "./cache";

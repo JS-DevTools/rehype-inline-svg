@@ -4,10 +4,10 @@ export { CacheEfficiency, Options } from "./options";
 export { inlineSVG };
 
 // Export `inlineSVG` as the default export
-// tslint:disable: no-default-export
 export default inlineSVG;
 
 // CommonJS default export hack
+/* eslint-env commonjs */
 if (typeof module === "object" && typeof module.exports === "object") {
-  module.exports = Object.assign(module.exports.default, module.exports);  // tslint:disable-line: no-unsafe-any
+  module.exports = Object.assign(module.exports.default, module.exports);
 }
