@@ -24,7 +24,7 @@ export function imgToSVG(groupedNodes: GroupedImageNodes, svgCache: SvgCache): v
         ...imgNode.properties,
       };
 
-      // Don't copy the "src" property
+      // @ts-expect-error - Don't copy the "src" property
       delete properties.src;
 
       // Overwrite the <img> node with the <svg> node
