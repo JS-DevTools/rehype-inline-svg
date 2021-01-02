@@ -109,7 +109,7 @@ unified().use(inlineSVG);
 // Use the Inline SVG plugin with custom options
 unified().use(inlineSVG, {
   maxImageSize: 5000,          // Don't inline SVGs larger than 5 kb
-  maxTotalFileSize: 25000,    // 25 kb limit for all occurrences of each SVG
+  maxTotalSize: 25000,    // 25 kb limit for all occurrences of each SVG
   optimize: false,            // Don't optimize SVGs
 });
 ```
